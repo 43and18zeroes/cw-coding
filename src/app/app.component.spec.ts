@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'cwgermany'`, () => {
+  it(`should have as title 'cw-coding'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('cwgermany');
+    expect(app.title).toEqual('cw-coding');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('cwgermany app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('cw-coding app is running!');
   });
 });

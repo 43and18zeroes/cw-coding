@@ -42,7 +42,7 @@ export class ContactFormComponent implements OnInit {
       fd.append('mail', mailField.value);
       fd.append('message', messageField.value);
 
-      await fetch('https://cwgermany.de/send_mail/send_mail.php',
+      await fetch('https://cw-coding.de/send_mail/send_mail.php',
         {
           method: 'POST',
           body: fd
