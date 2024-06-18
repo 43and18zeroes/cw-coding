@@ -1,0 +1,53 @@
+<section class="contact noSelect">
+    <div class="anchor" id="contact"></div>
+    <div class="container">
+        <div class="contact__headline">
+            <h2>Contact</h2>
+            <hr>
+        </div>
+
+        <div class="contact__content">
+
+            <div class="contact__content__text">
+                <h3>Got a problem to solve?</h3>
+                <p>Contact me through this form, I am interested in hearing you, knowing your ideas and contributing to
+                    your projects with my work.
+                </p>
+                <p>Need a Front-End developer? <b>Contact me!</b>
+                </p>
+            </div>
+
+            <div class="contact__content__form">
+
+                <form (submit)="sendMail()" ngNativeValidate #myForm>
+                    <input class="textfields" type="text" name="name" #nameField placeholder="Your name">
+                    <input class="textfields" type="text" name="mail" #mailField placeholder="Your email">
+                    <textarea class="textfields textarea" type="text" name="message" #messageField
+                        placeholder="Your message"></textarea>
+                    <div class="form__btn__div">
+                        <button class="btn__lightblue" #sendButton>Send message :)</button>
+                    </div>
+                </form>
+
+                <div class="form__submit__successful" #formSubmitSuccessful>
+                    <span class="material-symbols-rounded form__submit__successful__check">
+                        check_circle
+                    </span>
+                    <div class="form__submit__successful__text">
+                        Message<br>
+                        transmitted
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="arrowup__container noSelect">
+            <a (click)="sectionHero()"><span class="material-symbols-rounded">
+                    arrow_circle_up
+                </span></a>
+        </div>
+    </div>
+    <img class="contactform__bgcloud" src="assets/img/webp/contact-form/contact-form-bgcloud.webp" alt="">
+</section>
