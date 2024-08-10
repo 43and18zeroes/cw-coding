@@ -168,6 +168,16 @@
 
     @media (max-width: 762px) {
         width: 200px;
+        margin-bottom: 50px;
+    }
+
+    @media (max-width: 610px) {
+        width: 150px;
         margin-bottom: 300px;
+    }
+
+    @media (max-width: 506px) {
+        width: 100px;
+        margin-bottom: 500px;
     }
 }
