@@ -1,4 +1,4 @@
-<section class="contact noSelect">
+<section class="contact">
     <div class="anchor" id="contact"></div>
     <div class="container">
         <div class="contact__headline">
@@ -25,7 +25,7 @@
                     <textarea class="textfields textarea" type="text" name="message" #messageField
                         placeholder="Your message"></textarea>
                     <div class="form__btn__div">
-                        <button class="btn__lightblue" #sendButton>Send message :)</button>
+                        <button class="btn__lightblue noSelect" #sendButton>Send message :)</button>
                     </div>
                 </form>
 
@@ -43,8 +43,8 @@
 
         </div>
 
-        <div class="arrowup__container noSelect">
-            <a (click)="sectionHero()"><span class="material-symbols-rounded">
+        <div class="arrowup__container">
+            <a (click)="sectionHero()"><span class="material-symbols-rounded noSelect">
                     arrow_circle_up
                 </span></a>
         </div>

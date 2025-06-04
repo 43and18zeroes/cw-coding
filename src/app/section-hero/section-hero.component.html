@@ -22,7 +22,7 @@
                     </div>
 
                 </div>
-                <a (click)="contact()" class="btn__lightblue">Let's talk</a>
+                <a (click)="contact()" class="btn__lightblue noSelect">Let's talk</a>
 
             </div>
 
@@ -52,13 +52,13 @@
             <div class="hero__line">
                 <hr>
             </div>
-            <div class="hero__btns noSelect">
+            <div class="hero__btns">
                 <div class="hero__contact">
-                    <a target="_blank" href="https://github.com/43and18zeroes"><img src="assets/img/webp/hero_btns/hero-github.webp" alt=""></a>
-                    <a target="_blank" href="mailto: christoph@cw-coding.de"><img src="assets/img/webp/hero_btns/hero-mail.webp" alt=""></a>
+                    <a class="noSelect" target="_blank" href="https://github.com/43and18zeroes"><img src="assets/img/webp/hero_btns/hero-github.webp" alt=""></a>
+                    <a class="noSelect" target="_blank" href="mailto: christoph@cw-coding.de"><img src="assets/img/webp/hero_btns/hero-mail.webp" alt=""></a>
                     <a target="_blank" href="mailto: christoph@cw-coding.de" class="hero__contact__mail hidden__mobile">christoph&#64;cw-coding.de</a>
                 </div>
-                <div class="hero__scroll__down hidden__mobile"><a (click)="aboutMe()">Scrolls down <img
+                <div class="hero__scroll__down hidden__mobile noSelect"><a (click)="aboutMe()">Scrolls down <img
                             src="assets/img/webp/hero_btns/hero-arrow-right.webp" alt=""></a></div>
             </div>
         </div>

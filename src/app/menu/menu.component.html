@@ -1,14 +1,14 @@
-<header>
+<header class="noSelect">
     <div class="container header__container">
-        <a class="header__logo noSelect" routerLink="/" (click)="sectionHero()">Christoph</a>
+        <a class="header__logo" routerLink="/" (click)="sectionHero()">Christoph</a>
 
-        <div class="header__links hidden__mobile noSelect">
+        <div class="header__links hidden__mobile">
             <a (click)="aboutMe()">About me</a>
             <a (click)="skills()">Skills</a>
             <a (click)="portfolio()">Portfolio</a>
             <a (click)="contact()">Contact</a>
         </div>
-        <div class="header__links hidden__desktop noSelect">
+        <div class="header__links hidden__desktop">
             <button class="hamburger">
                 <span _ngcontent-bub-c53="" class="bar"></span>
             </button>
