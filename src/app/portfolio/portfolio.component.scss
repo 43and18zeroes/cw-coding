@@ -15,7 +15,6 @@ h4 {
     font-size: 23px;
     font-weight: 400;
     color: $light-blue;
-    line-height: 0;
 }
 
 .portfolio__buttons__live {
@@ -164,7 +163,6 @@ h4 {
 
     .portfolio__examples__picleft__text {
         width: 50%;
-        padding-top: 16px;
         margin-left: $portfolio-examples-distances;
 
         @media (max-width: 1240px) {
@@ -236,7 +234,6 @@ h4 {
 
     .portfolio__examples__picright__text {
         width: 50%;
-        padding-top: 16px;
         margin-right: $portfolio-examples-distances;
         text-align: right;
 
@@ -364,15 +361,8 @@ h4 {
     z-index: -10;
 
     @media (max-width: 1600px) {
-        // width: 500px;
-        // margin-top: 0;
         display: none;
     }
-
-    // @media (max-width: 512px) {
-    //     width: 250px !important;
-    //     margin-top: 64px;
-    // }
 }
 
 .portfolio__lightbgfog {
